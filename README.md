@@ -9,3 +9,8 @@ pip install -r requirements.txt
 mkdir conversation_logs
 python bot.py
 ```
+Usage:
+`/prompt <yourprompthere>` requests a completion based on current conversation context
+`/newchat` Create a new chat if the conversation is long enough (to prevent spamming)
+
+Enjoy :)
